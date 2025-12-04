@@ -278,15 +278,9 @@ void loop() {
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-С Serial in нодой мы пока не можем их соединить, ведь туда приходит одно целое сообщение вида "T:27.8,H:99.0". Займемся разделением. Сначала разделим по запятой на T:XX.XX и H:XX.XX. Проще всего использовать ноду split:
+С Serial in нодой мы пока не можем их соединить, ведь туда приходит одно целое сообщение вида "T:27.8,H:99.0".&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-В настройках блока укажем, что разделять хотим по запятой:
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-
-Также перед split-ом поставим блок ограничения скорости (данные от ардуино приходят слишком быстро) delay:
+Прежде чем разделять сообщение, сначала поставим блок ограничения скорости после Serial in (данные от ардуино приходят слишком быстро) delay:
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -298,10 +292,91 @@ void loop() {
 
 Вот так пока выглядит цепочка блоков:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
 
-Теперь на выходе split мы получаем два отдельных сообщения, отдельно с T и отдельно с H:
+Далее разделим сообщение по запятой , с помощью блока split на два сообщения, одно со значением влажности, второе со значением температуры:
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure>
 
-Дальше нам ничего не стоит
+Настройки:
+
+<figure><img src="../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
+
+Теперь на выходе split мы будем получать сразу два сообщения, одно с температурой, второе с влажностью:
+
+<figure><img src="../../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure>
+
+Но мы видим, что ключи и двоеточия T: и H: все еще остались на месте. Чтобы выводить значения на экран, нам нужно и их убрать. Кроме того, оба сообщения одновременно выходят из одного места из блока split, нам как-то нужно их развести:
+
+<figure><img src="../../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure>
+
+Посмотрим на структуру сообщения, подключив debug ноду. Для температуры:
+
+<figure><img src="../../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure>
+
+Или в коде:
+
+```javascript
+msg = {
+    payload: "T:27.4",
+    port: ...,
+    parts: {
+        id: ...,
+        type: ...,
+        ch: ...,
+        index: 0,
+        count: ...,
+        }
+    _msgid: ...
+}
+```
+
+А теперь посмотрим на влажность:
+
+<figure><img src="../../.gitbook/assets/image (184).png" alt=""><figcaption></figcaption></figure>
+
+Или в коде:
+
+```javascript
+msg = {
+    payload: "H:30.8",
+    port: ...,
+    parts: {
+        id: ...,
+        type: ...,
+        ch: ...,
+        index: 1,
+        count: ...,
+        }
+    _msgid: ...
+}
+```
+
+То есть, если представить себе сообщение msg как коробку, то это будет выглядеть примерно так: коробка msg большого размера, в ней пара вещей, например payload, port, \_msgid, а так же еще одна коробка с этикетой parts, внутри которой лежит так же пара вещей типа id и type, а так же нужная нам вещь под названием index - она указывает на номер сообщения после блока split (посмотрите - у температуры index = 0, а у влажности index = 1):
+
+<figure><img src="../../.gitbook/assets/image (186).png" alt="" width="375"><figcaption></figcaption></figure>
+
+То есть, если index == 0, то это температура, если index == 1, то это влажность. Добавим блок функции function после блока split:
+
+<figure><img src="../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure>
+
+Эта функция будет находить сообщение с температурой по его index и вытаскивать само значение температуры из `"T:27.50"`. Напишем такой код:
+
+```javascript
+if (msg.parts.index ==0) { // если index внутри msg внутри parts == 0
+    msg.payload = msg.payload.split(":")[1] // разделяем сообщение по двоеточию :
+    return msg // пересылаем сообщение дальше
+}
+```
+
+Самой непонятной частью является строчка:
+
+```
+msg.payload = msg.payload.split(":")[1]
+```
+
+msg.payload = ... -> это значит пересылаемое далее сообщение
+
+msg.payload.split(":") -> команда split разделяет msg.payload (то есть пришедшее от предыдущего блока значения) по указанному в скобках значению, то есть ":". Обратно split выдает массив из двух получившихся кусочков, то есть \["T" , "27.50"]. Нас интересует второй кусочек, его индекс \[1]
+
+Команда return msg -> это"отправить сообщение дальше". Мы вставляем return msg внутрь if, чтобы дальше сообщение шло, только если этот if выполнится
