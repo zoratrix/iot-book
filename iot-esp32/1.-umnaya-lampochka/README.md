@@ -10,7 +10,7 @@
 
 Получается, что схема нашего проекта будет следующей:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
 Нужно написать код. Создаем новый файл в Arduino IDE.
 

@@ -4,7 +4,7 @@
 
 Светодиод - это прекрасно и красиво, но с помощью одной лампочки практически невозможно передать какую-то информацию. Тут на помощь могут прийти различные типы **дисплеев**:
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
 Мы рассмотрим LCD-дисплей.
 
@@ -34,7 +34,7 @@
 
 ### Схема подключения
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 ### Код программы
 
@@ -42,7 +42,7 @@
 
 Начнем с подключения библиотеки: Чтобы подключить библиотеку, нажимаем Sketch -> Include Library -> ищем нужную в списке. Нам нужна библиотека LiquidCrystal\_I2C.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 После этого в начале кода появится строчка, которая и нужна для использования библиотеки в программе:
 
@@ -70,7 +70,7 @@ void setup() {
 * установить курсор в нужную «ячейку» командой `ekran.setCursor(столбец, строка)`
 * вывести текст командой `ekran.print(“текст”)`
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 Код (внутри `loop`):
 

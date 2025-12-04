@@ -29,7 +29,7 @@
 
 <summary>Пример блок-схемы алгоритма</summary>
 
-<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 

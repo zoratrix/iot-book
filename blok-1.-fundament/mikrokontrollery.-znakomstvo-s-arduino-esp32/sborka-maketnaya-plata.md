@@ -4,15 +4,15 @@
 
 Можно взять паяльник, компоненты, дощечку и кусок пластика, или вообще делать все в воздухе, и соединить вот так:
 
-<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
 Это довольно сложно, нужно быть аккуратным, и подходит только для легких схем. Если в схеме много компонентов, то может получиться как-то так:
 
-<figure><img src="../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
 Чтобы сделать более простым процесс сборки и более безопасным процесс использования, можно использовать **макетные платы** (по английски - breadboard). Макетные платы, предназначенные для пайки, представляют собой текстолит с отверстиями, в которые можно вставить компоненты. Спаять можно все прямо на плате или использовать провода:
 
-<figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
 Такую плату уже можно применить и в готовом изделии.
 
@@ -24,17 +24,17 @@
 
 то можно использовать **беспаечную макетную плату**, такую:
 
-<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
 
 Внутри находятся металлические ряды с зажимами, в которые можно вставить компоненты:
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
 Ряды внутри стандартной макетки соединены так, как показано на картинке:
 
-<figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 Мы будем стараться использовать ряды согласно их обозначениям:
 

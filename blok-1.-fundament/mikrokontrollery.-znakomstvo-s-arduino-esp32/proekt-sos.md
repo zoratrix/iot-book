@@ -8,15 +8,15 @@
 
 Начнем с блок-схемы алгоритма. Подробнее про блок-схемы смотрите здесь: [blok-skhemy.md](../../dokumentaciya/blok-skhemy.md "mention") В общих словах для нашего проекта алгоритм выглядит так:
 
-<figure><img src="../../.gitbook/assets/image (51).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (59).png" alt="" width="375"><figcaption></figcaption></figure>
 
 У нас есть только одна лампочка, значит точка - это короткое включение-выключение лампочки, а тире - длинное включение-выключение лампочки. В азбуке Морзе тире должно быть в три раза длиннее точки. Пусть тогда: точка = лампочка горит 0.25 секунд (250 мс), а тире = 0.75 секунд (750 мс). Алгоритм можно уточнить:
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
 **Мы видим, что у нас есть несколько повторяющихся блоков, фиолетовые (это буква S в начале и в конце SOS, а так же буква O, состоящая из трех действий. Мы можем объединить их в алгоритме, а затем и в коде. Запишем так:**
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 ### Сборка схемы
 

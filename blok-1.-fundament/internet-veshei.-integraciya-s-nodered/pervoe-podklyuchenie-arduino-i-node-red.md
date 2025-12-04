@@ -16,7 +16,7 @@
 
 В правом верхнем углу нажмите на значок меню, выберите Проекты -> Новый проект
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 Настройки нового проекта:
 
@@ -24,17 +24,17 @@
 * Файл потока - ваша фамилия латиницей.json, напрмер: Ivanov.json
 * Выбрать опцию «отключить шифрование»
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 2 Как устроен проект в Node-red
 
 Проект состоит из потоков (вкладки). Чтобы добавить новый поток, кликните на кнопку с плюсиком в правой верхней части рабочей области. Кроме того, это можно сделать, нажав на кнопку с тремя полосками справа вверху, а затем на «Flows» > «Add».
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 **Ноды** – это «кубики» из которых состоят потоки и весь проект. Ноды соединяются друг с другом при помощи «проводков», подключенных к портам. У ноды может быть лишь один входной порт и несколько выходных портов.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 Слева в интерфейсе находится **палитра** – библиотека всех нод, установленных в редактор и готовых к использованию. В палитру можно устанавливать новые ноды лдя расширения функционала (как библиотеки в программировании). Сейчас у нас, помимо базовых, установлены пакеты :
 
@@ -45,19 +45,19 @@
 
 3 Базовые ноды
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="266"><figcaption></figcaption></figure>
 
 **Нода Inject** - используется для ручного запуска сообщения в поток – при помощи клика по кнопке ноды прямо в редакторе Node-RED. Например, вручную передать в код какое-то число, время с момента запуска программы. Используется для отладки
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26).png" alt="" width="266"><figcaption></figcaption></figure>
 
 **Нода Debug** - используется для вывода в панель отладки каких-либо сообщений. Например, чтобы посмотреть на результат выполнения каких-то операций (почти то же самое, что Serial.print() в ардуино)
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt="" width="266"><figcaption></figcaption></figure>
 
 Нода Function - в этой ноде можно задать JavaScript-код, который будет применяться к проходящим через нее сообщениям.
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt="" width="266"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="266"><figcaption></figcaption></figure>
 
 Нода Change - эту ноду можно использовать, чтобы модифицировать свойства сообщения, не обращаясь для этого к ноде «Function».
 
@@ -74,7 +74,7 @@
 
 Между нодами в Node-red данные идут всегда в одном и том же виде - это «объект Javascript»:
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 Например, если мы настроим Inject на отправку _числа_ 1 (например для включения лампочки), то "выходить" из этой ноды будет не число 1, а объект под названием msg с вот таким содержимым:
 
@@ -89,7 +89,7 @@
 
 Node red будет общаться с нашей ардуино по серийному порту - это самый простой способ. Для этого нужны две ноды:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### Отправка данных с Ардуино в Node-red
 
@@ -99,19 +99,19 @@ Node red будет общаться с нашей ардуино по сери�
 
 При двойном клике на ноду у нас появляется окно настроек. Конкретно для Serial in мы можем настроить Serial Port - что логично, нам нужно указать, с какого порта и с какой скоростью нода будет считывать данные:
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 Выберите в поле Serial Port номер порта, к которму у вас подулючена плата Ардуино (можно посмотреть в Arduino IDE или диспетчере устройств). В поле Baud Rate выберите скорость, с которой будет происходить обмен данными. После этого нажмите красную кнопку справа сверху (Обновить):
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Окей, нода настроена, теперь в нее будет приходить все то же самое, что вы видите в Arduino IDE в мониторе порта. Но как нам увидеть эти данные в Node red? Самое простое - добавить ноду debug. Вытащите ноду debug на рабочую область и соедините с Serial in:
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 Чтобы применить изменения, в Node-red нужно нажать кнопку “Развернуть”
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Переходим к коду на ардуино. Давайте напишем в Arduino какой-нибудь простой код, который будет присылать текст в серийный порт раз в несколько секунд. Убедитесь, что скорость одинаковая в коде ардуино и в Node-red:
 
@@ -128,11 +128,11 @@ void loop() {
 
 После загрузки кода в ардуино, чтобы увидеть его в Node red, нужно открыть терминал отладки - в правой верхней части окна значок жука:
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 В терминале отладки вы должны увидеть сообщения, приходящие от Ардуино:<br>
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Задание
 
@@ -184,7 +184,7 @@ void loop() {
 
 Теперь настраиваем Node-red поток. Вытащите в рабочую область две ноды inject. Одна будет отправлять 1, а вторая - 0. Соедините их с блоком Serial out (его настройка аналогична Serial in).
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 Разверните поток. Теперь при нажатии на «хвостик» у серой ноды inject на ардуино будет отправляться значение 1 или 0. Проверьте, включается/выключается ли лампочка.
 
@@ -194,7 +194,7 @@ void loop() {
 
 Подсказки по управлению серво мотором:
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 Для программы:
 

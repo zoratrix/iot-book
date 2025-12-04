@@ -120,13 +120,13 @@ RGB -это способ получения цветов как смеси Red, 
 
 HSV (Hue - тон, Saturation - насыщенность (серее-цветнее), Value - яркость (светлее-темнее))
 
-<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
 Если мы представляем цвет в HSV, то для светодиодной ленты мы вполне можем выкрутить S и V на максимум (максимальная цветность и максимальная яркость), а именно цвет менять параметром H (Hue) от красного к желтому, зеленому и далее радугой снова до красного):
 
-<figure><img src="../../.gitbook/assets/image (28).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt="" width="375"><figcaption></figcaption></figure>
 
 В библиотеке есть, как я написала ранее, команда setHue(), она делает именно это, оставляет S =255, V = 255, и меняет только значение H от 0 до 255. У нас 8 светодиодов, если мы хотим вывести радугу, поделим 255/8 и получим \~31. Тогда на первый светодиод передадим 31, на второй 31\*2, на третий 31\*3 и так далее:
 
@@ -168,15 +168,15 @@ FastLED.show();
 
 На основе того же кода для радуги, что мы написали ранее, можно сделать полноценную анимацию. Для этого нам нужно, чтобы цвета светодиодов менялись по кругу, например, в первый момент времени:
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 Затем второй шаг:
 
-<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 Третий шаг и так далее:
 
-<figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
 Это можно сделать, реализовав счетчик (в начале кода создайте переменную counter типа byte, изначально = 0)
 

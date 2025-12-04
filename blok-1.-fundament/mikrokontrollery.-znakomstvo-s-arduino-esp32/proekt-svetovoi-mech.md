@@ -18,7 +18,7 @@
 
 ## Схема подключения
 
-<figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
 ## Подсказки по коду
 

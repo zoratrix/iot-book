@@ -4,7 +4,7 @@
 
 **Кнопка** – это простой механический переключатель, который замыкает (или размыкает) электрическую цепь, когда мы на него нажимаем. Вы наверняка встречали разные виды кнопок:
 
-<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 Кнопка нужна, чтобы дать человеку возможность взаимодействовать с устройством (включить, переключить режим, запустить процесс).
 
@@ -26,7 +26,7 @@
 
 Схема подключения (со светодиодом):
 
-<figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 
 ### Программа
 
@@ -204,7 +204,7 @@ void loop() {
 
 Кнопка не идеальна и контакт замыкается не сразу, какое-то время он механически "дребезжит" _(bounce)_ - внутри кнопки находится металлическая платинка, которая колеблется при нажатии и отпускании. Прогоняя данный алгоритм, система опрашивает кнопку и условия приблизительно за 6 мкс, то есть кнопка опрашивается около 166'666 раз в секунду! Этого достаточно, чтобы получить несколько тысяч "нажатий" вместо одного:
 
-<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 Для однозначного определения состояния кнопки дребезг нужно "погасить" - **debounce**.
 
@@ -220,13 +220,13 @@ void loop() {
 
 Дребезг можно погасить аппаратно - при помощи RC фильтра, образованного резистором и конденсатором:
 
-<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 Сигнал будет выглядеть примерно так:
 
 [<br>](https://alexgyver.ru/wp-content/uploads/2025/01/btn-rc.png)
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 #### Программный антидребезг
 

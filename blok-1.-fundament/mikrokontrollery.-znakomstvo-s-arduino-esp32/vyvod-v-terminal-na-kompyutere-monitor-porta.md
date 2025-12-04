@@ -38,7 +38,7 @@
 
 Открыть монитор порта можно так:
 
-<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure>
 
 В окне монитора порта есть несколько важных настроек:
 

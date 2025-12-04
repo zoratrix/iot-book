@@ -6,15 +6,15 @@
 
 Выглядит он вот так:
 
-<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
 Схема подключения:
 
-<figure><img src="../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 Если используется не "голый" датчик, а датчик на модуле, например, такой:
 
-<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 То резистор не нужен и остается подключить только +, - и сигнал в соответствии с надписями на плате.
 
@@ -22,15 +22,15 @@
 
 В первую очередь после создания нового файла нужно подключить библиотеку для работы с датчиком. Она называется "DHT sensor library". Если она установлена, то это можно сделать так:
 
-<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
 После нажатия на название библиотеки в коде появятся новые строки, которые и выполняют подключение файлов библиотеки в коде:
 
-<figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-Если в списке библиотек нужная не нашлась, значит, ее необходимо скачать. Удобнее всего это сделать прямо в Arduino IDE, нажав (в версии 2) кнопку ![](<../../.gitbook/assets/image (65).png>) в панели слева. В открывшейся панели в поле поиска сверху вводим название библиотеки, находим в списке нужную и нажимаем кнопку "Install" (она будет вместо update на скриншоте):
+Если в списке библиотек нужная не нашлась, значит, ее необходимо скачать. Удобнее всего это сделать прямо в Arduino IDE, нажав (в версии 2) кнопку ![](<../../.gitbook/assets/image (73).png>) в панели слева. В открывшейся панели в поле поиска сверху вводим название библиотеки, находим в списке нужную и нажимаем кнопку "Install" (она будет вместо update на скриншоте):
 
-<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 Следующий шаг - создать датчик в программе (создать экземпляр класса датчика в своем коде). Для этого используем код:
 

@@ -2,7 +2,7 @@
 
 Технически, интернет — это сеть из устройств, общающихся между собой с помощью проводов или радиоволн. Устройства запрашивают друг у друга данные и отдают их. Того, кто запрашивает, называют **клиентом**. Того, кто отдаёт, называют **сервером**.
 
-<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 Чтобы передать информацию в понятном друг для друга виде, устройства используют общепринятые **интерфейсы** и **протоколы**.
 
@@ -34,13 +34,13 @@
 
 Один из наиболее распространенных в устройствах протоколов - это USB - он хорошо вам известен:
 
-<figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 
 
 Также часто встречается Ethernet:
 
-<figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 Собственно интерфейс не ограничивается формой разъема (именно они изображены на картинках выше), но пока этого достаточно - теперь вы сможете отличить разъемы и кабели друг от друга.
 
@@ -52,7 +52,7 @@
 
 UART (Universal Asynchronous Receiver-Transmitter, Универсальный Асинхронный Приемопередатчик) использует для передачи данных два провода: по одному проводу в одну сторону, по другому — в другую. UART задаёт скорость передачи в бодах (1 бод = 1 бит в секунду). Она принимает конкретные значения, например 9600 бод, 115200 бод и другие. Оба устройства обязаны передавать данные на одной и той же скорости. Часто этот интерфейс ещё называют Serial.
 
-<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption><p>Пин RX принимает данные, а пин TX — передаёт.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption><p>Пин RX принимает данные, а пин TX — передаёт.</p></figcaption></figure>
 
 &#x20;Скорость в бодах иногда называют битрейтом.
 
@@ -62,7 +62,7 @@ UART (Universal Asynchronous Receiver-Transmitter, Универсальный А
 
 Интерфейс SPI (Serial Peripheral Interface) позволяет соединить в сеть больше двух устройств. Одно из них становится ведущим (Master, мастером), а все остальные ведомыми (Slave). Ведущее устройство по очереди передаёт данные ведомым по линии MOSI (master output slave input). Очерёдность задаётся линиями CS (Chip Select, выбор ведомого). Ведомые устройства передают свои данные по линии MISO (master input slave output), но только с разрешения мастера (линией CS). Скорость передачи задаётся линией SCK (\_П\_).
 
-<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>DO - Data Out (выходной сигнал), DI - Data In (входной сигнал)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption><p>DO - Data Out (выходной сигнал), DI - Data In (входной сигнал)</p></figcaption></figure>
 
 ## Протоколы
 

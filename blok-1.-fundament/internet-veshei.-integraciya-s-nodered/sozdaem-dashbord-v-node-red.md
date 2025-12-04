@@ -4,23 +4,23 @@
 
 В прошлый раз мы научились считывать данные от ардуино в терминал Node-red и отправлять на ардуино команды с помощью ноды Inject
 
-<figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
 
 Очевидно, что рабочее пространство Node-red - это не то, что видит конечный пользователь, поэтому ручная отправка через Inject и чтение через Debug нам не подходят.&#x20;
 
 Будем создавать дашборды. Для этого используем пакет Node-red Dashboard2 (Существует так же Dashboard 1, ноды имеют немного разные настройки и вид, но принципиальных отличий при разработке нет). Ноды из этого пакета имеют ярко-голубой цвет:
 
-<figure><img src="../../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
 
 Структура любого дашборда в пакетах Dashboard2 и Dashboard1 выглядит так:
 
-<figure><img src="../../.gitbook/assets/image (142).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (150).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Дашборд подобен сайту, страницы - это страницы внутри сайта, между которыми можно переключаться, а группы - это группы UI-элементов (надписи, кнопки, формы и тп), каждая из которых отвечает за какую-то определенную часть работы страницы.
 
 Например для дашборда "Умной теплицы" структура может быть такой:
 
-<figure><img src="../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
 
 ## Управление через дашборд Node-red
 
@@ -28,11 +28,11 @@
 
 Перетащите в рабочую область ноду Button:
 
-<figure><img src="../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
 
 Дважды кликните на нее, чтобы открыть окно настроек. В этом окне нам сначала нужно настроить страницу и группу, в которой будет находиться эта кнопка:
 
-<figure><img src="../../.gitbook/assets/image (145).png" alt="" width="252"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (153).png" alt="" width="252"><figcaption></figcaption></figure>
 
 Откроется окно настройки группы. Здесь можно изменить ее размер (поле Size), тип и так далее, но нас интересует для начала, на какой странице находится эта группа, поэтому нажимаем на значок редактирования в поле страницы.
 
@@ -40,11 +40,11 @@
 **Важно!** При добавлении первого элемента автоматически создается дашборд Dashboard1 с одной страницей Page1 и одной группой на на ней Group1. Сейчас мы **редактируем** эти **уже созданные** элементы. Далее, когда нам нужно будет создать **новую** группу/страницу, мы будем нажимать не на значок редактирования, а сначала **в выпадающем списке выбирать "создать новую group/page"** и редактировать новую страницу/группу
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
 
 Откроется окно редактирования страницы. Поменяем ей имя и нажмем "Обновить":
 
-<figure><img src="../../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
 Вот что делают остальные поля (мы их не меняем):
 
@@ -57,37 +57,37 @@
 
 После завершения редактирования страницы нас перекинет обратно в редактирование группы. У группы так же поменяем название, проверим, что в поле page указана "Главная страница", а затем нажмем "Обновить":
 
-<figure><img src="../../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
 
 Нас перекинет к окну редактирования кнопки. Проверьте, что кнопка находится в правильной группе. Нам нужно настроить: **название** кнопки (label) (что на ней будет написано) и что за **значение** (payload) эта кнопка отправляет. **Важно:** в поле "payload" в выпадающем списке можно выбрать **тип данных**. Выберите **число** или **строку** и запомните, что выбрали:
 
-<figure><img src="../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
 
 После этого можно нажать "готово". Кнопка в рабочей области поменяет название на то, что мы указали:
 
-<figure><img src="../../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
 
 Теперь скопируйте эту кнопку (ctrl+c и ctrl+v) и поменяйте в копии название на "Выкл лампу" и payload = 0:
 
-<figure><img src="../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
 
 Теперь можно поставить эти две кнопки вместо нод Inject (или рядом с ними) и соединить с Serial out:
 
-<figure><img src="../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
 
 Не забудьте нажать <mark style="color:red;">**"Развернуть"**</mark>**!**!
 
 А как увидеть сам дашборд? В правой верхней части экрана нажмите на иконку и в списке выберите Dashboard 2:
 
-<figure><img src="../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
 
 Здесь можно увидеть структуру дашборда и все страницы, группы и элементы, которые на нем расположены. По клику на кнопку "Open Dashboard" откроется сам дашборд в отдельной вкладке браузера:
 
-<figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
 
 Вот так сейчас выглядит дашборд:
 
-<figure><img src="../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
 
 Убедитесь, что кнопки работают.&#x20;
 
@@ -99,37 +99,37 @@
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
 
 Измените размер на, например, 4x1:
 
-<figure><img src="../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
 
 Затем поменяем размеры кнопок. Кликните дважды на ноду кнопки, в параметре size измените размер на 2х1, затем то же самое для второй кнопки:
 
-<figure><img src="../../.gitbook/assets/image (159).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
 
 Результат:
 
-<figure><img src="../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
 
 Обратите внимание, что элементы расставляются сами друг за другом (порядок можно поменять в меню dashboard просто перетащив элементы как надо), если в строку влезает несколько элементов, то они будут расположены в одной строке, если не влезают - то друг под другом.
 
 Конечно, кнопки - не единственный вариант управления лампой. Гораздо удобнее для этого использовать переключатель. Вытащите в рабочую область блок switch:
 
-<figure><img src="../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
 
 Кликните на него дважды для настройки. Нужно изменить label (отображаемое название) и payload:
 
-<figure><img src="../../.gitbook/assets/image (162).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
 
 Насчет payload в блоке switch. По умолчанию он передает true/false. Это не то же самое, что числа 1 и 0 или строки "1" и "0". Учитывая, что наш код на ардуино принимает 1 и 0 (числа или строки), нужно изменить payload на:
 
-<figure><img src="../../.gitbook/assets/image (163).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
 
 **Однако!** Часто встречается **баг**, при котором тип выходящих значений ноды switch даже после настройки сбрасывается и становится true/false. В таком случае нужно либо поменять код в ардуино (принимать строки "true" или "false"), либо добавить функцию для конвертации прямо в node-red. Сделать это можно так: добавляем ноду function между switch и serial out:
 
-<figure><img src="../../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
 
 Внутри function написать простой код (на языке JS), если пришедшее в блок значение = true, то передать далее значение 1. Если пришедшее значение = false, то передать далее значение 0. Полученное из предыдущего блока сообщение - это msg.payload. То что мы отправляем далее - тоже msg.payload:
 
@@ -144,7 +144,7 @@ return msg;
 
 Результат на дашборде:
 
-<figure><img src="../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>
 
 ## Задания
 
@@ -175,19 +175,19 @@ void loop() {
 
 В Node-red часть со считыванием данных выглядела так:
 
-<figure><img src="../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (174).png" alt=""><figcaption></figcaption></figure>
 
 Все, что нужно сделать - это заменить debug на какой-нибудь подходящий виджет для отображения значений, самое простое - это нода text:
 
-<figure><img src="../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure>
 
 Из настроек в этой ноде - только label (отображаемое название) и при желании можно изменить размер и layout (внешний вид):
 
-<figure><img src="../../.gitbook/assets/image (168).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
 
 Результат:
 
-<figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure>
 
 ## Задания
 

@@ -4,7 +4,7 @@
 
 **Цикл** — это управляющая конструкция, которая заставляет какой-то блок кода выполняться **несколько раз.** Циклы могут выглядеть по-разному
 
-<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 Блок кода, который повторяется = **тело** цикла.
 
@@ -42,7 +42,7 @@ for (;;) {
 
 Представьте себе, что спортсмен отжимается на «счет»: 1, 2, 3, 4, 5.
 
-<figure><img src="../../.gitbook/assets/image (127).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (135).png" alt="" width="375"><figcaption></figcaption></figure>
 
 В данном случае счет:
 

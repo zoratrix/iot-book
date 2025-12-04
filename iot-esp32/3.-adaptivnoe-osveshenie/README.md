@@ -4,19 +4,19 @@
 
 Для этого понадобится измерять уровень освещенности. Проще всего это сделать с помощью фоторезистора:
 
-<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 Фоторезистор - полупроводниковый прибор, изменяющий величину своего сопротивления при облучении светом.
 
 Мы будем использовать фоторезистор на модуле:
 
-<figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
 На плате модуля освещенности так же распаяны: компаратор LM393 и подстроечный резистор. Это дает возможность настроить сенсор освещенности на срабатывание при любом уровне светового потока.
 
 ## Схема подключения
 
-<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
 ## Код программы
 

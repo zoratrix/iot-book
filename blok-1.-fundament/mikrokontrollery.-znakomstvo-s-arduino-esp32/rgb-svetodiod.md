@@ -6,13 +6,13 @@ RGB-светодиод - это три светодиода (Красный, З�
 
 Комбинируя яркость этих трех цветов, можно получить практически любой цвет. Белый свет — это максимум всех трех компонентов.
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt="" width="185"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt="" width="185"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt="" width="117"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (49).png" alt="" width="117"><figcaption></figcaption></figure>
 
 Чтобы не плодить лишние выводы, все аноды или катоды светодиодов объединяются и получается 4 контакта: `R`, `G`, `B` и общий `COM`. Общим может быть как минус (катод) - _Common Cathode_, так и плюс (анод) - _Common Anode_:
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 Также на этой картинке показана распиновка типичного RGB светодиода: **самая длинная нога - общий вывод**, крайняя рядом с ней - красный, с другой стороны зелёный дальняя крайняя - синий.
 
@@ -20,7 +20,7 @@ RGB-светодиод - это три светодиода (Красный, З�
 
 Если используем "голый" светодиод без резисторов:
 
-<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
 **Важно!** Если хотим управлять оттенками, подключаем в ШИМ-пинам (обозначены \~)
 
@@ -72,7 +72,7 @@ analogWrite(blue, 39);
 
 С помощью кода выше включается вот такой цвет:
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt="" width="70"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt="" width="70"><figcaption></figcaption></figure>
 
 Помните, что цвет на светодиоде и на экране компьютера будет отличаться! Значения RGB для любого цвета можно подобрать, например, тут: [https://htmlcolorcodes.com](https://htmlcolorcodes.com/)
 

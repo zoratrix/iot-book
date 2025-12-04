@@ -6,11 +6,11 @@
 
 Самая часто встречающаяся клавиатура - мембранная:
 
-<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 Но мы будем использовать вот такую, с тактовыми кнопками:
 
-<figure><img src="../../.gitbook/assets/image (131).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (139).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Сборка схемы
 
@@ -48,7 +48,7 @@ String class[10] = {"Маша", "Игорь","Игнат","Вова","Леша",
 
 Такой массив - как таблица с 1 строкой и заданным количеством столбцов (это количество мы указываем в квадратных скобках). Причем у каждого ученика есть номер (например, они расположены в порядке успеваемости или роста)
 
-<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
 
 Получить элемент из такого массива мы можем, указав название массива и номер элемента:
 
@@ -60,7 +60,7 @@ class[14] // нет такого
 
 Но так же бывают и многомерные массивы, например, двухмерные. Скажем, мы хотим записать в массив всех учеников класса, но по рядам, так, как они сидят в классе:
 
-<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
 
 В виде массива это будет выглядеть так - как массив, состоящий из массивов:
 

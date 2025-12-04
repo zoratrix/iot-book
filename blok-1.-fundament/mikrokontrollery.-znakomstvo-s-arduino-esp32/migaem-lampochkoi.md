@@ -6,11 +6,11 @@
 
 1\) **Светодиод** (по английски – LED) – маленькая лампочка. Загорится, если подать ток. У светодиода две ножки, большая и маленькая. **Большая** = к <mark style="color:$danger;">**(+)**</mark> питания, **маленькая** = к <mark style="color:blue;">**(-)**</mark> питания. Легко запомнить по первой букве: **м**аленькая = **м**инус. Если перепутать ножки, то светодиод сгорит.
 
-<figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 **Резистор** – ограничивает ток. Цветные полоски указывают на величину сопротивления.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 Чем **больше сопротивление**, тем **меньше тока** пройдет через резистор. Но, если слишком сильно уменьшить ток, то его будет "недостаточно" и лампочка будет гореть слишком тускло.
 
@@ -36,7 +36,7 @@ $$R =\frac{U_{пит} - U_{свет}} {I} = \frac{5 - 3} {0.02} = 100$$ Ом
 
 Итак, схема, которую нужно собрать:
 
-<figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -44,7 +44,7 @@ $$R =\frac{U_{пит} - U_{свет}} {I} = \frac{5 - 3} {0.02} = 100$$ Ом
 
 В простейшем случае код программы для контроллеров Arduino делится на три основные части.
 
-<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
 Часть A, которая находится в самом начале кода:
 
@@ -96,7 +96,7 @@ void loop() {
 
 <summary>входы и выходы на примере компьютера</summary>
 
-<figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
@@ -174,7 +174,7 @@ void loop() {
 
 ## Алгоритм
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt="" width="141"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (57).png" alt="" width="141"><figcaption></figcaption></figure>
 
 
 
@@ -182,7 +182,7 @@ void loop() {
 
 Соберите схему с двумя светодиодами:
 
-<figure><img src="../../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 Напишите 2 программы:
 
