@@ -50,7 +50,8 @@
 
 ## Блок 2. Чемпионат "Профессионалы"
 
-* [Блок 2. Чемпионат "Профессионалы"](blok-2.-chempionat-professionaly/blok-2.-chempionat-professionaly.md)
+* [Модуль Б. Инженер-технолог](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/README.md)
+  * [1. Получение данных от оборудования](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/1.-poluchenie-dannykh-ot-oborudovaniya.md)
 
 ## Блок 3. Проекты
 
