@@ -56,6 +56,8 @@
   * [2. Настройка внешнего вида и положения виджетов](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/2.-nastroika-vneshnego-vida-i-polozheniya-vidzhetov.md)
   * [3. Перевод значений](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/3.-perevod-znachenii.md)
   * [4. Переключатель перевода значений](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/4.-pereklyuchatel-perevoda-znachenii.md)
+  * [5. Переключатель приема данных](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/5.-pereklyuchatel-priema-dannykh.md)
+  * [6. Критические и допустимые значения](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/6.-kriticheskie-i-dopustimye-znacheniya.md)
 
 ## Блок 3. Проекты
 
