@@ -52,6 +52,9 @@
 
 * [Модуль Б. Инженер-технолог](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/README.md)
   * [1. Получение данных от оборудования](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/1.-poluchenie-dannykh-ot-oborudovaniya.md)
+  * [2. Настройка внешнего вида и положения виджетов](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/2.-nastroika-vneshnego-vida-i-polozheniya-vidzhetov.md)
+  * [3. Перевод значений](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/3.-perevod-znachenii.md)
+  * [4. Переключатель перевода значений](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/4.-pereklyuchatel-perevoda-znachenii.md)
 
 ## Блок 3. Проекты
 
