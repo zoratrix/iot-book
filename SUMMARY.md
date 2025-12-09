@@ -58,6 +58,11 @@
   * [4. Переключатель перевода значений](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/4.-pereklyuchatel-perevoda-znachenii.md)
   * [5. Переключатель приема данных](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/5.-pereklyuchatel-priema-dannykh.md)
   * [6. Критические и допустимые значения](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/6.-kriticheskie-i-dopustimye-znacheniya.md)
+  * [7. Сохранение логов в БД (пусто)](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/7.-sokhranenie-logov-v-bd-pusto.md)
+  * [8. Отображение данных со смарт-камеры в графическом виде](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/8.-otobrazhenie-dannykh-so-smart-kamery-v-graficheskom-vide.md)
+  * [9. Отображение подключенности оборудования (пусто)](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/9.-otobrazhenie-podklyuchennosti-oborudovaniya-pusto.md)
+* [Модуль В. Оператор (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator-pusto.md)
+* [Модуль Г. Руководитель (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto.md)
 
 ## Блок 3. Проекты
 
