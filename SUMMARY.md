@@ -61,6 +61,7 @@
   * [7. Сохранение логов в БД (пусто)](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/7.-sokhranenie-logov-v-bd-pusto.md)
   * [8. Отображение данных со смарт-камеры в графическом виде](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/8.-otobrazhenie-dannykh-so-smart-kamery-v-graficheskom-vide.md)
   * [9. Отображение подключенности оборудования (пусто)](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/9.-otobrazhenie-podklyuchennosti-oborudovaniya-pusto.md)
+  * [10. Дополнительные элементы](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/10.-dopolnitelnye-elementy.md)
 * [Модуль В. Оператор (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator-pusto.md)
 * [Модуль Г. Руководитель (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto.md)
 
