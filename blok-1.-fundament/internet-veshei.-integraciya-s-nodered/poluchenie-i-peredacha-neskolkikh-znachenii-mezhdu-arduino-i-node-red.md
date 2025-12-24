@@ -276,7 +276,7 @@ void loop() {
 
 Теперь займемся стороной Node-red. Выведем значения температуры и влажности в текстовые поля (нода text). Самостоятельно достаньте и настройте их:
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 С Serial in нодой мы пока не можем их соединить, ведь туда приходит одно целое сообщение вида "T:27.8,H:99.0".&#x20;
 
@@ -392,7 +392,7 @@ if (msg.parts.index == 1) {
 
 Итоговый поток:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Таким же образом, добавляя после ноды split (разделить) функции для других ключей, можем добавлять и другие датчики.
 
