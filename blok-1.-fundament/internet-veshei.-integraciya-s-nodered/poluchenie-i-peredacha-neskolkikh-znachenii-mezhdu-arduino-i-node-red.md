@@ -10,11 +10,11 @@
 
 Задавать цвет можно по-разному, попробуем использовать слайдеры. Вытащите 3 слайдера в рабочую область:
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Теперь их нужно настроить. Внутри каждого слайдера укажите его имя (Label), диапазон значений от 0 до 255 с шагом 1 (Range), а так же можно настроить поле Output - либо (по умолчанию) continuously when sliding (то есть данные передаются даже пока вы перетаскиваете ползунок) или only on release (данные передаются когда ползунок отпущен)
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Но напрямую значения слайдеров мы теперь отправить не можем, нужно указать, где какой цвет. Для каждого слайдера добавим функцию, которая возьмет значение (число) и к нему добавит подпись. Добавьте 1 ноду function. Внутри нее пишем такой код: `содержание сообщения = подпись + содержание сообщения`:
 
@@ -276,19 +276,19 @@ void loop() {
 
 Теперь займемся стороной Node-red. Выведем значения температуры и влажности в текстовые поля (нода text). Самостоятельно достаньте и настройте их:
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 С Serial in нодой мы пока не можем их соединить, ведь туда приходит одно целое сообщение вида "T:27.8,H:99.0".&#x20;
 
 Прежде чем разделять сообщение, сначала поставим блок ограничения скорости после Serial in (данные от ардуино приходят слишком быстро) delay:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 В настройках укажите режим "ограничение скорости" и время на 2 сек., а так же режим "без промежуточных сообщений". Это значит, что все сообщения, которые будут в 2-секундом промежутке, на который мы делаем задержку, будут просто игнорироваться.&#x20;
 
 Если оставить queue intrmediate messages, как по умолчанию, то все промежуточные сообщения будут накапливаться "в очереди", и, учитывая, с какой огромной скоростью они приходят, их быстро накопится очень много и они переполнят память сервера :
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Вот так пока выглядит цепочка блоков:
 
@@ -392,7 +392,7 @@ if (msg.parts.index == 1) {
 
 Итоговый поток:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Таким же образом, добавляя после ноды split (разделить) функции для других ключей, можем добавлять и другие датчики.
 
