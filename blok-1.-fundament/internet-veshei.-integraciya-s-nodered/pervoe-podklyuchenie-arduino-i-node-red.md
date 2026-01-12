@@ -89,7 +89,7 @@
 
 Node red будет общаться с нашей ардуино по серийному порту - это самый простой способ. Для этого нужны две ноды:
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Отправка данных с Ардуино в Node-red
 
@@ -99,19 +99,19 @@ Node red будет общаться с нашей ардуино по сери�
 
 При двойном клике на ноду у нас появляется окно настроек. Конкретно для Serial in мы можем настроить Serial Port - что логично, нам нужно указать, с какого порта и с какой скоростью нода будет считывать данные:
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Выберите в поле Serial Port номер порта, к которму у вас подулючена плата Ардуино (можно посмотреть в Arduino IDE или диспетчере устройств). В поле Baud Rate выберите скорость, с которой будет происходить обмен данными. После этого нажмите красную кнопку справа сверху (Обновить):
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Окей, нода настроена, теперь в нее будет приходить все то же самое, что вы видите в Arduino IDE в мониторе порта. Но как нам увидеть эти данные в Node red? Самое простое - добавить ноду debug. Вытащите ноду debug на рабочую область и соедините с Serial in:
 
-<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Чтобы применить изменения, в Node-red нужно нажать кнопку “Развернуть”
 
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Переходим к коду на ардуино. Давайте напишем в Arduino какой-нибудь простой код, который будет присылать текст в серийный порт раз в несколько секунд. Убедитесь, что скорость одинаковая в коде ардуино и в Node-red:
 
@@ -128,11 +128,11 @@ void loop() {
 
 После загрузки кода в ардуино, чтобы увидеть его в Node red, нужно открыть терминал отладки - в правой верхней части окна значок жука:
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 В терминале отладки вы должны увидеть сообщения, приходящие от Ардуино:<br>
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Задание
 
@@ -184,7 +184,7 @@ void loop() {
 
 Теперь настраиваем Node-red поток. Вытащите в рабочую область две ноды inject. Одна будет отправлять 1, а вторая - 0. Соедините их с блоком Serial out (его настройка аналогична Serial in).
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 Разверните поток. Теперь при нажатии на «хвостик» у серой ноды inject на ардуино будет отправляться значение 1 или 0. Проверьте, включается/выключается ли лампочка.
 

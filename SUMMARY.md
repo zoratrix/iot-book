@@ -63,7 +63,15 @@
   * [9. Отображение подключенности оборудования (пусто)](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/9.-otobrazhenie-podklyuchennosti-oborudovaniya-pusto.md)
   * [10. Сохранение логов в БД (пусто)](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/7.-sokhranenie-logov-v-bd-pusto.md)
 * [Модуль В. Оператор](blok-2.-chempionat-professionaly/modul-v.-operator/README.md)
-  * [1. Передача данных на оборудование](blok-2.-chempionat-professionaly/modul-v.-operator/1.-peredacha-dannykh-na-oborudovanie.md)
+  * [1. Передача данных на оборудование (роботы)](blok-2.-chempionat-professionaly/modul-v.-operator/1.-peredacha-dannykh-na-oborudovanie-roboty.md)
+  * [2. Передача данных на оборудование (прочее оборудование)](blok-2.-chempionat-professionaly/modul-v.-operator/2.-peredacha-dannykh-na-oborudovanie-prochee-oborudovanie.md)
+  * [3. Неверные значения (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/3.-nevernye-znacheniya-pusto.md)
+  * [4. Инициализация системы (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/4.-inicializaciya-sistemy-pusto.md)
+  * [5. Автоматическая сборка (базовая)](blok-2.-chempionat-professionaly/modul-v.-operator/5.-avtomaticheskaya-sborka-bazovaya.md)
+  * [6. Автоматическая сборка (продвинутая)](blok-2.-chempionat-professionaly/modul-v.-operator/6.-avtomaticheskaya-sborka-prodvinutaya.md)
+  * [7. Автоматическая индикация (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/7.-avtomaticheskaya-indikaciya-pusto.md)
+  * [8. Сохранение данных (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/8.-sokhranenie-dannykh-pusto.md)
+  * [9. Сброс и пауза (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/9.-sbros-i-pauza-pusto.md)
 * [Модуль Г. Руководитель (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto.md)
 
 ## Блок 3. Проекты
