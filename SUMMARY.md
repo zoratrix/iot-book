@@ -61,7 +61,7 @@
   * [7. Дополнительные элементы](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/10.-dopolnitelnye-elementy.md)
   * [8. Отображение данных со смарт-камеры в графическом виде](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/8.-otobrazhenie-dannykh-so-smart-kamery-v-graficheskom-vide.md)
   * [9. Отображение подключенности оборудования (пусто)](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/9.-otobrazhenie-podklyuchennosti-oborudovaniya-pusto.md)
-  * [10. Сохранение логов в БД (пусто)](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/7.-sokhranenie-logov-v-bd-pusto.md)
+  * [10. Сохранение логов в БД](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/10.-sokhranenie-logov-v-bd.md)
 * [Модуль В. Оператор](blok-2.-chempionat-professionaly/modul-v.-operator/README.md)
   * [1. Передача данных на оборудование (роботы)](blok-2.-chempionat-professionaly/modul-v.-operator/1.-peredacha-dannykh-na-oborudovanie-roboty.md)
   * [2. Передача данных на оборудование (прочее оборудование)](blok-2.-chempionat-professionaly/modul-v.-operator/2.-peredacha-dannykh-na-oborudovanie-prochee-oborudovanie.md)
