@@ -68,7 +68,7 @@
   * [3. Инициализация системы и переключатель передачи данных](blok-2.-chempionat-professionaly/modul-v.-operator/3.-inicializaciya-sistemy-i-pereklyuchatel-peredachi-dannykh.md)
   * [4. Автоматическая сборка (базовая)](blok-2.-chempionat-professionaly/modul-v.-operator/5.-avtomaticheskaya-sborka-bazovaya.md)
   * [5. Автоматическая сборка (продвинутая)](blok-2.-chempionat-professionaly/modul-v.-operator/6.-avtomaticheskaya-sborka-prodvinutaya.md)
-  * [6. Неверные значения (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/3.-nevernye-znacheniya-pusto.md)
+  * [6. Неверные значения](blok-2.-chempionat-professionaly/modul-v.-operator/6.-nevernye-znacheniya.md)
   * [7. Автоматическая индикация (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/7.-avtomaticheskaya-indikaciya-pusto.md)
   * [8. Сохранение данных (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/8.-sokhranenie-dannykh-pusto.md)
   * [9. Сброс и пауза (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/9.-sbros-i-pauza-pusto.md)
