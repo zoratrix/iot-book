@@ -69,10 +69,11 @@
   * [4. Автоматическая сборка (базовая)](blok-2.-chempionat-professionaly/modul-v.-operator/5.-avtomaticheskaya-sborka-bazovaya.md)
   * [5. Автоматическая сборка (продвинутая)](blok-2.-chempionat-professionaly/modul-v.-operator/6.-avtomaticheskaya-sborka-prodvinutaya.md)
   * [6. Неверные значения](blok-2.-chempionat-professionaly/modul-v.-operator/6.-nevernye-znacheniya.md)
-  * [7. Автоматическая индикация](blok-2.-chempionat-professionaly/modul-v.-operator/7.-avtomaticheskaya-indikaciya.md)
+  * [7. Автоматическая индикация](blok-2.-chempionat-professionaly/modul-v.-operator/7.-avtomaticheskaya-indikaciya-pusto.md)
   * [8. Сохранение данных (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/8.-sokhranenie-dannykh-pusto.md)
   * [9. Сброс и пауза (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/9.-sbros-i-pauza-pusto.md)
-* [Модуль Г. Руководитель (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto.md)
+* [Модуль Г. Руководитель (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/README.md)
+  * [Панель инструментов (сохранение, передача данных) (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/panel-instrumentov-sokhranenie-peredacha-dannykh-pusto.md)
 
 ## Блок 3. Проекты
 
