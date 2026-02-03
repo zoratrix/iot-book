@@ -50,6 +50,9 @@
 
 ## Блок 2. Чемпионат "Профессионалы"
 
+* [Модуль А. Документация](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/README.md)
+  * [0. Оформление](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/0.-oformlenie.md)
+  * [1. Информационная модель системы (схемы)](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/1.-informacionnaya-model-sistemy-skhemy.md)
 * [Модуль Б. Инженер-технолог](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/README.md)
   * [Суть задания модуля](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/sut-zadaniya-modulya.md)
   * [1. Получение данных от оборудования](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/1.-poluchenie-dannykh-ot-oborudovaniya.md)
