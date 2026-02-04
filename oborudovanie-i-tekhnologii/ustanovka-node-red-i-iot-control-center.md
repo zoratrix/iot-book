@@ -72,3 +72,43 @@ npm install -g --unsafe-perm node-red
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
+7\) после окончания загрузки не запускайте виртуальную машину и сначала настройте сеть. нажмите "настройки":
+
+<figure><img src="../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure>
+
+раздел "сеть":
+
+<figure><img src="../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
+
+тип подключения должен быть "сетевой мост", имя - скорее всего у вас там так же будет realtek..., то есть оставьте по умолчанию
+
+8\) закройте настройки, вернитесь к основной странице virtual box. выберите виртуальную машину в списке слева и нажмите "запустить"
+
+<figure><img src="../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
+
+Дождитесь загрузки. В открывшемся окне виртуальной машине у вас появится требование ввести логин.&#x20;
+
+* login: redadmin
+* password: 12345
+
+Ввкдите логин и нажмите энтер:
+
+<figure><img src="../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+
+Далее введите пароль. ВНИМАНИЕ - при вводе пароля символы не отображаются. Просто введите 12345 и нажмите энтер. Если вы все ввели верно, у вас загрузится система и появится терминал
+
+<figure><img src="../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
+
+На этом все, сверните виртуальную машину и можно идти работать. Единственное, при первом запуске вам нужно узнать ip виртуальной машины для подключения. Для этого в терминале виртуальной машины введите команду `ifconfig` и нажмите энтер:
+
+<figure><img src="../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
+
+Просто запомните или запишите это ip и используйте его.
+
+Чтобы открыть веб-интерфейс нод ред, сверните виртуальную машину, откройте бразуер и введите в адресную строку вместо `localhost:1880` (как в смене) `ip-адрес:1880`, например `192.168.0.15:1880`, вот так:
+
+<figure><img src="../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
+
+**ВАЖНО:** для входа в нод ред используйте логин `admin` пароль `12345`
+
+<figure><img src="../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure>
