@@ -1,4 +1,4 @@
-# Установка Node-red и IOT control center
+# Установка Node-red
 
 Есть два способа установки Node-red. Попробуйте первый, если не выйдет, попробуйте второй
 
@@ -35,11 +35,11 @@ npm install -g --unsafe-perm node-red
 
 6\) устанавливаем библиотеки. В веб-интерфейсе откройте меню в правом верхнем углу, выберите "управление палитрой"
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Выберите вкладку "установить". В поле для ввода вставьте название пакета (список будет ниже), затем нажмите install у появившегося в поиске варианта:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -52,7 +52,7 @@ npm install -g --unsafe-perm node-red
 
 ## Установка Node-red (способ 2, на виртуальную машину, 8 гб)
 
-1\) Скачайте файл (образ системы с уже установленным node-red и библиотеками) [https://drive.google.com/file/d/1AfVdII33FMgfsmDHc1MqGLo\_tSIbCCd5/view?usp=drive\_link](https://drive.google.com/file/d/1AfVdII33FMgfsmDHc1MqGLo_tSIbCCd5/view?usp=drive_link)
+1\) Скачайте файл (образ системы **с уже установленным node-red и библиотеками**) [https://drive.google.com/file/d/1AfVdII33FMgfsmDHc1MqGLo\_tSIbCCd5/view?usp=drive\_link](https://drive.google.com/file/d/1AfVdII33FMgfsmDHc1MqGLo_tSIbCCd5/view?usp=drive_link)
 
 2\) Скачайте и установите Virtual Box [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) (в левой части экрана ссылка Windows hosts)
 
