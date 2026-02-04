@@ -5,6 +5,7 @@
   * [Микроконтроллеры](oborudovanie-i-tekhnologii/mikrokontrollery.md)
   * [Интерфейсы и протоколы](oborudovanie-i-tekhnologii/interfeisy-i-protokoly.md)
   * [Протокол MQTT](oborudovanie-i-tekhnologii/protokol-mqtt.md)
+  * [Установка Node-red и IOT control center](oborudovanie-i-tekhnologii/ustanovka-node-red-i-iot-control-center.md)
 * [Документация](dokumentaciya/README.md)
   * [Блок-схемы](dokumentaciya/blok-skhemy.md)
   * [Тест-кейсы](dokumentaciya/test-keisy.md)
