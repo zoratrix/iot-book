@@ -33,7 +33,22 @@ npm install -g --unsafe-perm node-red
 
 5\) зайдите в веб-интерфейс. Для этого откройте браузер и запустите localhost:1880
 
-6\) устанавливаем библиотеки
+6\) устанавливаем библиотеки. В веб-интерфейсе откройте меню в правом верхнем углу, выберите "управление палитрой"
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Выберите вкладку "установить". В поле для ввода вставьте название пакета (список будет ниже), затем нажмите install у появившегося в поиске варианта:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+**Список нужных пакетов:**
+
+* @flowfuse/node-red-dashboard&#x20;
+* node-red-contrib-iot-controlcenter
+
+Готово, вы установили нод ред и вы прекрасны!
 
 ## Установка Node-red (способ 2, на виртуальную машину, 8 гб)
 
@@ -46,3 +61,14 @@ npm install -g --unsafe-perm node-red
 <figure><img src="../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 4\) В открывшемся окне выберите файл .ova скачанный в пункте 1
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+5\) Далее при необходимости вы можете поменять место хранения файлов виртуальной машины (если у вас нет проблем с местом на диске C, то ничего не меняйте)
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+6\) Дождитесь окончания импорта
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
