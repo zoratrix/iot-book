@@ -78,7 +78,7 @@
   * [10. Сброс и пауза (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/9.-sbros-i-pauza-pusto.md)
 * [Модуль Г. Руководитель (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto.md)
   * [1. Панель инструментов (сохранение, передача данных)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/1.-panel-instrumentov-sokhranenie-peredacha-dannykh.md)
-  * [2. Управление авто режимом (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/2.-upravlenie-avto-rezhimom-pusto.md)
+  * [2. Управление авто режимом](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/2.-upravlenie-avto-rezhimom.md)
   * [3. Контроль качества](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/3.-kontrol-kachestva.md)
   * [4. Управление рабочими сменами](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/4.-upravlenie-rabochimi-smenami.md)
   * [5. Данные баркод ридера и системы безопасности](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/5.-dannye-barkod-ridera-i-sistemy-bezopasnosti-pusto.md)
