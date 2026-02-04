@@ -81,7 +81,7 @@
   * [2. Управление авто режимом (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/2.-upravlenie-avto-rezhimom-pusto.md)
   * [3. Контроль качества](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/3.-kontrol-kachestva.md)
   * [4. Управление рабочими сменами](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/4.-upravlenie-rabochimi-smenami.md)
-  * [5. Данные баркод ридера и системы безопасности](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/5.-dannye-barkod-ridera-i-sistemy-bezopasnosti.md)
+  * [5. Данные баркод ридера и системы безопасности](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/5.-dannye-barkod-ridera-i-sistemy-bezopasnosti-pusto.md)
   * [6. Статистика (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/6.-statistika-pusto.md)
   * [7. Логи данных управления и мониторинга (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/7.-logi-dannykh-upravleniya-i-monitoringa-pusto.md)
   * [8. Графики данных мониторинга (пусто)](blok-2.-chempionat-professionaly/modul-g.-rukovoditel-pusto/8.-grafiki-dannykh-monitoringa-pusto.md)
