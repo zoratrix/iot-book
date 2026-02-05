@@ -13,6 +13,6 @@
 
 например для Team9 (не удалите случайно ничего, например ; или другие символы)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Затем сохраните файл и выйдите. Далее пользуйтесь контрол центром как обычно
