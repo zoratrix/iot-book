@@ -35,13 +35,13 @@ npm install -g --unsafe-perm node-red
 
 6\) устанавливаем библиотеки. В веб-интерфейсе откройте меню в правом верхнем углу, выберите "управление палитрой"
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Выберите вкладку "установить". В поле для ввода вставьте название пакета (список будет ниже), затем нажмите install у появившегося в поиске варианта:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Список нужных пакетов:**
 
@@ -62,11 +62,11 @@ npm install -g --unsafe-perm node-red
 
 4\) В открывшемся окне выберите файл .ova скачанный в пункте 1
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 5\) Далее при необходимости вы можете поменять место хранения файлов виртуальной машины (если у вас нет проблем с местом на диске C, то ничего не меняйте)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 6\) Дождитесь окончания импорта
 
