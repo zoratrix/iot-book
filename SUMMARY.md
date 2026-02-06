@@ -74,7 +74,7 @@
   * [4. Автоматическая сборка (базовая)](blok-2.-chempionat-professionaly/modul-v.-operator/5.-avtomaticheskaya-sborka-bazovaya.md)
   * [5. Автоматическая сборка (продвинутая)](blok-2.-chempionat-professionaly/modul-v.-operator/6.-avtomaticheskaya-sborka-prodvinutaya.md)
   * [6. Неверные значения](blok-2.-chempionat-professionaly/modul-v.-operator/6.-nevernye-znacheniya.md)
-  * [7. Текущая операция и план сборки (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/7.-tekushaya-operaciya-i-plan-sborki-pusto.md)
+  * [7. Текущая операция и план сборки](blok-2.-chempionat-professionaly/modul-v.-operator/7.-tekushaya-operaciya-i-plan-sborki.md)
   * [8. Автоматическая индикация](blok-2.-chempionat-professionaly/modul-v.-operator/7.-avtomaticheskaya-indikaciya-pusto.md)
   * [9. Сохранение данных (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/8.-sokhranenie-dannykh-pusto.md)
   * [10. Сброс и пауза (пусто)](blok-2.-chempionat-professionaly/modul-v.-operator/9.-sbros-i-pauza-pusto.md)
