@@ -53,8 +53,15 @@
 ## Блок 2. Чемпионат "Профессионалы"
 
 * [Модуль А. Документация](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/README.md)
-  * [0. Оформление](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/0.-oformlenie.md)
-  * [1. Информационная модель системы (схемы)](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/1.-informacionnaya-model-sistemy-skhemy.md)
+  * [0. Оформление и общая информация](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/0.-oformlenie-i-obshaya-informaciya.md)
+  * [1. Информационная модель системы](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/1.-informacionnaya-model-sistemy.md)
+  * [2 Синхронизация и временные задержки](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/2-sinkhronizaciya-i-vremennye-zaderzhki.md)
+  * [3 Свойства оборудования](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/3-svoistva-oborudovaniya.md)
+  * [4 Калибровка значений](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/4-kalibrovka-znachenii.md)
+  * [5 Алгоритмы работы оборудования](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/5-algoritmy-raboty-oborudovaniya.md)
+  * [6 Рабочие зоны и допустимые значения](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/6-rabochie-zony-i-dopustimye-znacheniya.md)
+  * [7 События-триггеры](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/7-sobytiya-triggery.md)
+  * [8 Организация работ](blok-2.-chempionat-professionaly/modul-a.-dokumentaciya/8-organizaciya-rabot.md)
 * [Модуль Б. Инженер-технолог](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/README.md)
   * [Суть задания модуля](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/sut-zadaniya-modulya.md)
   * [1. Получение данных от оборудования](blok-2.-chempionat-professionaly/modul-b.-inzhener-tekhnolog/1.-poluchenie-dannykh-ot-oborudovaniya.md)

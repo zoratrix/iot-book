@@ -89,7 +89,7 @@
 
 Node red будет общаться с нашей ардуино по серийному порту - это самый простой способ. Для этого нужны две ноды:
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Отправка данных с Ардуино в Node-red
 
