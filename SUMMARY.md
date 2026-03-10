@@ -100,7 +100,10 @@
 
 ## Блок 3. Проекты
 
-* [Page 1](blok-3.-proekty/page-1.md)
+* [Python + Железо](blok-3.-proekty/python-+-zhelezo/README.md)
+  * [1 Генератор случайных событий](blok-3.-proekty/python-+-zhelezo/1-generator-sluchainykh-sobytii/README.md)
+    * [1 База Python](blok-3.-proekty/python-+-zhelezo/1-generator-sluchainykh-sobytii/1-baza-python.md)
+    * [2 Условия и случайные данные](blok-3.-proekty/python-+-zhelezo/1-generator-sluchainykh-sobytii/2-usloviya-i-sluchainye-dannye.md)
 
 ## Wemos + NodeRed <a href="#iot-esp32" id="iot-esp32"></a>
 
