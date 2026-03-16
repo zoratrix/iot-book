@@ -4,11 +4,11 @@
 
 Язык Python в 1991 году создал Гвидо Ван Россум. Название выбрано в честь шоу «Monty Python’s Flying Circus»:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Python имеет свои преимущества и недостатки. Они определяют, для чего он подходит, а для чего нет. Мы выбираем Python, потому что он прост для изучения и в нем много чего можно реализовать! А его основной недостаток - низкая скорость.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Особенности синтаксиса Python
 
