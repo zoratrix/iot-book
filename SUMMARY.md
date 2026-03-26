@@ -104,6 +104,7 @@
   * [1 Генератор случайных событий](blok-3.-proekty/python-+-zhelezo/1-generator-sluchainykh-sobytii/README.md)
     * [1 База Python](blok-3.-proekty/python-+-zhelezo/1-generator-sluchainykh-sobytii/1-baza-python.md)
     * [2 Условия и случайные данные](blok-3.-proekty/python-+-zhelezo/1-generator-sluchainykh-sobytii/2-usloviya-i-sluchainye-dannye.md)
+    * [3 Соединяем Python-код и Ардуино](blok-3.-proekty/python-+-zhelezo/1-generator-sluchainykh-sobytii/3-soedinyaem-python-kod-i-arduino.md)
 
 ## Wemos + NodeRed <a href="#iot-esp32" id="iot-esp32"></a>
 
