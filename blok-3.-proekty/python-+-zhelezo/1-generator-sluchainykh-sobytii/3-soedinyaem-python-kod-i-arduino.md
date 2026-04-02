@@ -110,9 +110,11 @@ arduino.write(b'1')  # Отправить байт '1'
 
 Отправлять мы можем только байты. Варианты записи есть такие:
 
-<table><thead><tr><th width="177">Что хотим отправить</th><th>Как написать в Python</th><th>Что улетит в порт</th></tr></thead><tbody><tr><td>Символ <code>'1'</code></td><td><code>arduino.write(b'1')</code></td><td>байт <code>0x31</code> (код символа '1')</td></tr><tr><td>Символ <code>'1'</code></td><td><code>arduino.write('1'.encode())</code></td><td>байт <code>0x31</code></td></tr><tr><td>Число <code>1</code></td><td><code>arduino.write(str(1).encode())</code></td><td>байт <code>0x31</code></td></tr><tr><td>Число 1 (неправильно)</td><td><code>arduino.write(1)</code></td><td>Ошибка: нужен <code>bytes</code>, не <code>int</code></td></tr><tr><td>Текст <code>"ON"</code></td><td><code>arduino.write(b'ON')</code></td><td>два байта: <code>0x4F 0x4E</code></td></tr></tbody></table>
+<table><thead><tr><th width="177">Что хотим отправить</th><th>Как написать в Python</th><th>Что улетит в порт</th></tr></thead><tbody><tr><td>Символ <code>'1'</code></td><td><code>arduino.write(b'1')</code></td><td>байт <code>0x31</code> (код символа '1')</td></tr><tr><td>Символ <code>'1'</code></td><td><code>arduino.write('1'.encode())</code></td><td>байт <code>0x31</code></td></tr><tr><td>Число <code>1</code></td><td><code>arduino.write(str(1).encode())</code></td><td>байт <code>0x31</code></td></tr><tr><td>Число <code>1</code> (неправильно)</td><td><code>arduino.write(1)</code></td><td>Ошибка: нужен <code>bytes</code>, не <code>int</code></td></tr><tr><td>Текст <code>"ON"</code></td><td><code>arduino.write(b'ON')</code></td><td>два байта: <code>0x4F 0x4E</code></td></tr></tbody></table>
 
+Чтобы не запутаться, лучше использовать `arduino.write('1'.encode())`
 
+(вместо '1' может быть и другое сообщение).
 
 Со стороны Ардуино мы должна написать программу, которая будет слушать серийный порт и что-то делать в зависимости от пришедших команд. Пусть мы отправляем 1 или 0 и эти значения вкл\выкл лампочку (код инициализации и pinmode лампочки напишите сами):
 
@@ -128,3 +130,60 @@ void loop() {
   }
 }
 ```
+
+## Задание
+
+Напишите программу: python отправляет ардуино в бесконечном цикле 1, затем 0, с паузой в 0.5-2 сек. По этим командам вклчается и выключается светодиод.
+
+## Работа с буфером
+
+здесь будет продолжение...
+
+<details>
+
+<summary></summary>
+
+```cpp
+void loop() {
+  // 1. Читаем все доступные байты, пока не придёт \n
+  while (Serial.available() > 0) {
+    char c = Serial.read();
+    if (c == '\n' || c == '\r') {
+      cmdReady = true;
+      break; // Выходим из чтения, чтобы обработать команду
+    }
+    buffer += c; // Копим символы
+  }
+
+  // 2. Если команда готова — обрабатываем
+  if (cmdReady) {
+    buffer.trim(); // Убираем лишние пробелы/\r
+    
+    // Простая логика команд
+    if (buffer == "1") {
+      digitalWrite(LED_PIN, HIGH);
+      Serial.println("✅ LED ON");
+    } 
+    else if (buffer == "0") {
+      digitalWrite(LED_PIN, LOW);
+      Serial.println("✅ LED OFF");
+    } 
+    else if (buffer == "b") {
+      blinkLED(500);
+      Serial.println("✅ BLINK DONE");
+    } 
+    else {
+      Serial.println("❌ UNKNOWN");
+    }
+
+    // Сброс буфера для следующей команды
+    buffer = "";
+    cmdReady = false;
+  }
+}
+
+```
+
+
+
+</details>
