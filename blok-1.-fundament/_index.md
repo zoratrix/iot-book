@@ -1,6 +1,5 @@
 ---
-order: 0.8
-title: 2 Датчики
+title: Блок 1. Фундамент
 ---
 
 [view:hierarchy=none::::List]

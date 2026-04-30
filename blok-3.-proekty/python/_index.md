@@ -1,6 +1,5 @@
 ---
-order: 0.8
-title: 2 Датчики
+title: Проекты с Python
 ---
 
 [view:hierarchy=none::::List]

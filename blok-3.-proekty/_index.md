@@ -1,6 +1,5 @@
 ---
-order: 0.8
-title: 2 Датчики
+title: Блок 3. Проекты
 ---
 
 [view:hierarchy=none::::List]
