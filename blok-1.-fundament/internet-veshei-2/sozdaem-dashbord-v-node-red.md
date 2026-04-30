@@ -8,7 +8,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (147).png:::0,0,100,100:::center]
+![](<./image (147).png>)
 
 <figcaption>
 
@@ -18,13 +18,13 @@ title: Создаем дашборд в Node-red
 
 </figure>
 
-Очевидно, что рабочее пространство Node-red - это не то, что видит конечный пользователь, поэтому ручная отправка через Inject и чтение через Debug нам не подходят. 
+Очевидно, что рабочее пространство Node-red - это не то, что видит конечный пользователь, поэтому ручная отправка через Inject и чтение через Debug нам не подходят.
 
 Будем создавать дашборды. Для этого используем пакет Node-red Dashboard2 (Существует так же Dashboard 1, ноды имеют немного разные настройки и вид, но принципиальных отличий при разработке нет). Ноды из этого пакета имеют ярко-голубой цвет:
 
 <figure>
 
-[image:../../.gitbook/assets/image (149).png:::0,0,100,100:::center]
+![](<./image (149).png>)
 
 <figcaption>
 
@@ -38,7 +38,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (150).png:::0,0,100,100:::center]
+![](<./image (150).png>)
 
 <figcaption>
 
@@ -54,7 +54,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (151).png:::0,0,100,100:::center]
+![](<./image (151).png>)
 
 <figcaption>
 
@@ -72,7 +72,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (152).png:::0,0,100,100:::center]
+![](<./image (152).png>)
 
 <figcaption>
 
@@ -86,7 +86,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (153).png:::0,0,100,100:::center]
+![](<./image (153).png>)
 
 <figcaption>
 
@@ -104,7 +104,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (154).png:::0,0,100,100:::center]
+![](<./image (154).png>)
 
 <figcaption>
 
@@ -118,7 +118,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (155).png:::0,0,100,100:::center]
+![](<./image (155).png>)
 
 <figcaption>
 
@@ -141,7 +141,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (156).png:::0,0,100,100:::center]
+![](<./image (156).png>)
 
 <figcaption>
 
@@ -155,7 +155,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (163).png:::0,0,100,100:::center]
+![](<./image (163).png>)
 
 <figcaption>
 
@@ -169,7 +169,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (158).png:::0,0,100,100:::center]
+![](<./image (158).png>)
 
 <figcaption>
 
@@ -183,7 +183,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (159).png:::0,0,100,100:::center]
+![](<./image (159).png>)
 
 <figcaption>
 
@@ -197,7 +197,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (160).png:::0,0,100,100:::center]
+![](<./image (160).png>)
 
 <figcaption>
 
@@ -213,7 +213,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (161).png:::0,0,100,100:::center]
+![](<./image (161).png>)
 
 <figcaption>
 
@@ -227,7 +227,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (162).png:::0,0,100,100:::center]
+![](<./image (162).png>)
 
 <figcaption>
 
@@ -241,7 +241,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (164).png:::0,0,100,100:::center]
+![](<./image (164).png>)
 
 <figcaption>
 
@@ -251,19 +251,17 @@ title: Создаем дашборд в Node-red
 
 </figure>
 
-Убедитесь, что кнопки работают. 
+Убедитесь, что кнопки работают.
 
 Правда, есть одна визуальная проблема - кнопки такие огромные, что занимают половину страницы. Давайте настроим их внешний вид.
 
-Страница дашборда в Dashboard2 представляется как сетка, по умолчанию один "квадратик" этой сетки имеет размер 48х48 пикселей, а количество "квадратиков" или "ячеек" сетки зависит от размера экрана (по умолчанию dashboard имеет ширину страницы 1024 пикселя, то есть 12 столбцов или "ячеек"). Каждая группа по умолчанию имеет размер 6 квадратиков. Каждый элемент по умолчанию имеет такой же размер (ширину), как и группа, в которой он находится. Именно поэтому наши кнопки так растянулись. 
+Страница дашборда в Dashboard2 представляется как сетка, по умолчанию один "квадратик" этой сетки имеет размер 48х48 пикселей, а количество "квадратиков" или "ячеек" сетки зависит от размера экрана (по умолчанию dashboard имеет ширину страницы 1024 пикселя, то есть 12 столбцов или "ячеек"). Каждая группа по умолчанию имеет размер 6 квадратиков. Каждый элемент по умолчанию имеет такой же размер (ширину), как и группа, в которой он находится. Именно поэтому наши кнопки так растянулись.
 
 Давайте сначала изменим размер группы: либо так же через ноду кнопки (зайти в кнопку -> редактировать группу), либо в меню dashboard:
 
- 
-
 <figure>
 
-[image:../../.gitbook/assets/image (165).png:::0,0,100,100:::center]
+![](<./image (165).png>)
 
 <figcaption>
 
@@ -277,7 +275,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (166).png:::0,0,100,100:::center]
+![](<./image (166).png>)
 
 <figcaption>
 
@@ -291,7 +289,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (167).png:::0,0,100,100:::center]
+![](<./image (167).png>)
 
 <figcaption>
 
@@ -305,7 +303,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (168).png:::0,0,100,100:::center]
+![](<./image (168).png>)
 
 <figcaption>
 
@@ -321,7 +319,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (169).png:::0,0,100,100:::center]
+![](<./image (169).png>)
 
 <figcaption>
 
@@ -335,7 +333,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (170).png:::0,0,100,100:::center]
+![](<./image (170).png>)
 
 <figcaption>
 
@@ -349,7 +347,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (171).png:::0,0,100,100:::center]
+![](<./image (171).png>)
 
 <figcaption>
 
@@ -363,7 +361,7 @@ title: Создаем дашборд в Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (172).png:::0,0,100,100:::center]
+![](<./image (172).png>)
 
 <figcaption>
 
@@ -388,7 +386,7 @@ return msg;
 
 <figure>
 
-[image:../../.gitbook/assets/image (173).png:::0,0,100,100:::center]
+![](<./image (173).png>)
 
 <figcaption>
 
@@ -405,9 +403,9 @@ return msg;
 
 ## Вывод данных на дашборд Node-red
 
-Аналогично просто можно сделать вывод данных, приходящих из ардуино, на дашборд Node-red. Для примера используем датчик освещенности (фоторезистор). Сначала код для ардуино. 
+Аналогично просто можно сделать вывод данных, приходящих из ардуино, на дашборд Node-red. Для примера используем датчик освещенности (фоторезистор). Сначала код для ардуино.
 
-Все, что нужно сделать - считывать значение и выводить его в серийный порт. 
+Все, что нужно сделать - считывать значение и выводить его в серийный порт.
 
 ```cpp
 #define light_sensor A0
@@ -429,7 +427,7 @@ void loop() {
 
 <figure>
 
-[image:../../.gitbook/assets/image (174).png:::0,0,100,100:::center]
+![](<./image (174).png>)
 
 <figcaption>
 
@@ -443,7 +441,7 @@ void loop() {
 
 <figure>
 
-[image:../../.gitbook/assets/image (175).png:::0,0,100,100:::center]
+![](<./image (175).png>)
 
 <figcaption>
 
@@ -457,7 +455,7 @@ void loop() {
 
 <figure>
 
-[image:../../.gitbook/assets/image (176).png:::0,0,100,100:::center]
+![](<./image (176).png>)
 
 <figcaption>
 
@@ -471,7 +469,7 @@ void loop() {
 
 <figure>
 
-[image:../../.gitbook/assets/image (177).png:::0,0,100,100:::center]
+![](<./image (177).png>)
 
 <figcaption>
 

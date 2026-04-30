@@ -20,7 +20,7 @@ title: Первое подключение Ардуино и Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (21).png:::0,0,100,100:::center]
+![](<./image (21).png>)
 
 <figcaption>
 
@@ -38,7 +38,7 @@ title: Первое подключение Ардуино и Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (22).png:::0,0,100,100:::center]
+![](<./image (22).png>)
 
 <figcaption>
 
@@ -54,7 +54,7 @@ title: Первое подключение Ардуино и Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (23).png:::0,0,100,100:::center]
+![](<./image (23).png>)
 
 <figcaption>
 
@@ -68,7 +68,7 @@ title: Первое подключение Ардуино и Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (24).png:::0,0,100,100:::center]
+![](<./image (24).png>)
 
 <figcaption>
 
@@ -89,7 +89,7 @@ title: Первое подключение Ардуино и Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (25).png:::0,0,100,100:::center]
+![](<./image (25).png>)
 
 <figcaption>
 
@@ -103,7 +103,7 @@ title: Первое подключение Ардуино и Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (26).png:::0,0,100,100:::center]
+![](<./image (26).png>)
 
 <figcaption>
 
@@ -117,7 +117,7 @@ title: Первое подключение Ардуино и Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (27).png:::0,0,100,100:::center]
+![](<./image (27).png>)
 
 <figcaption>
 
@@ -131,7 +131,7 @@ title: Первое подключение Ардуино и Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (28).png:::0,0,100,100:::center]
+![](<./image (28).png>)
 
 <figcaption>
 
@@ -148,7 +148,7 @@ title: Первое подключение Ардуино и Node-red
 -  Move – перместить или переименовать свойство
 -  Delete – чтобы удалить свойство
 
-Нода Filter - 
+Нода Filter -
 
 
 
@@ -158,7 +158,7 @@ title: Первое подключение Ардуино и Node-red
 
 <figure>
 
-[image:../../.gitbook/assets/image (29).png:::0,0,100,100:::center]
+![](<./image (29).png>)
 
 <figcaption>
 
@@ -183,7 +183,7 @@ Node red будет общаться с нашей ардуино по сери�
 
 <figure>
 
-[image:../../.gitbook/assets/image (12) (1) (1) (1) (1).png:::0,0,100,100:::center]
+![](<./image (12) (1) (1) (1) (1).png>)
 
 <figcaption>
 
@@ -203,7 +203,7 @@ Node red будет общаться с нашей ардуино по сери�
 
 <figure>
 
-[image:../../.gitbook/assets/image (13) (1) (1) (1).png:::0,0,100,100:::center]
+![](<./image (13) (1) (1) (1).png>)
 
 <figcaption>
 
@@ -217,7 +217,7 @@ Node red будет общаться с нашей ардуино по сери�
 
 <figure>
 
-[image:../../.gitbook/assets/image (14) (1) (1) (1).png:::0,0,100,100:::center]
+![](<./image (14) (1) (1) (1).png>)
 
 <figcaption>
 
@@ -231,7 +231,7 @@ Node red будет общаться с нашей ардуино по сери�
 
 <figure>
 
-[image:../../.gitbook/assets/image (15) (1) (1) (1).png:::0,0,100,100:::center]
+![](<./image (15) (1) (1) (1).png>)
 
 <figcaption>
 
@@ -245,7 +245,7 @@ Node red будет общаться с нашей ардуино по сери�
 
 <figure>
 
-[image:../../.gitbook/assets/image (17) (1) (1).png:::0,0,100,100:::center]
+![](<./image (17) (1) (1).png>)
 
 <figcaption>
 
@@ -272,7 +272,7 @@ void loop() {
 
 <figure>
 
-[image:../../.gitbook/assets/image (16) (1) (1).png:::0,0,100,100:::center]
+![](<./image (16) (1) (1).png>)
 
 <figcaption>
 
@@ -286,7 +286,7 @@ void loop() {
 
 <figure>
 
-[image:../../.gitbook/assets/image (18) (1).png:::0,0,100,100:::center]
+![](<./image (18) (1).png>)
 
 <figcaption>
 
@@ -322,7 +322,7 @@ int msg = Serial.parseInt();      // если приходящее значен�
 float msg = Serial.parseFloat();  // если приходящее значение - это float число
 ```
 
-Для управления лампочкой из Node-red получится вот такой код: 
+Для управления лампочкой из Node-red получится вот такой код:
 
 ```c
 #define lampa 5
@@ -348,7 +348,7 @@ void loop() {
 
 <figure>
 
-[image:../../.gitbook/assets/image (19) (1).png:::0,0,100,100:::center]
+![](<./image (19) (1).png>)
 
 <figcaption>
 
@@ -368,7 +368,7 @@ void loop() {
 
 <figure>
 
-[image:../../.gitbook/assets/image (20).png:::0,0,100,100:::center]
+![](<./image (20).png>)
 
 <figcaption>
 
