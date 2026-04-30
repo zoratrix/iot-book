@@ -8,8 +8,8 @@ title: "Проект: Интерактивный ночник"
 
 Также:
 
--  Разработайте **блок-схему** [blok-skhemy.md](./../../../dokumentaciya/blok-skhemy) алгоритма работы программы
--  Разработайте **тест-кейсы** [test-keisy.md](./../../../dokumentaciya/test-keisy) для проверки работоспособности
+-  Разработайте **блок-схему** [blok-skhemy.md](./../../dokumentaciya/blok-skhemy) алгоритма работы программы
+-  Разработайте **тест-кейсы** [test-keisy.md](./../../dokumentaciya/test-keisy) для проверки работоспособности
 
 ### Подсказки по выполнению
 
@@ -37,7 +37,7 @@ title: "Проект: Интерактивный ночник"
 
 <figure>
 
-[image:../../.gitbook/assets/image (133).png:::0,0,100,100:::center]
+![](<./image (133).png>)
 
 <figcaption>
 

@@ -12,7 +12,7 @@ title: Что такое Arduino?
 
 <figure>
 
-[image:../../.gitbook/assets/image (115).png:::0,0,100,100:::center]
+![](<./image (115).png>)
 
 <figcaption>
 

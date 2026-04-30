@@ -9,7 +9,7 @@ title: Светодиодная лента
 -  обычная - все светодиоды управляются как один, горят одновременнно, с одинаковой яркостью и т.п.
 -  адресная - каждым светодиодом можно управлять отдельно
 
-Мы будем говорить об адресной светодиодной ленте. Если вас интересует тема таких лент, посмотрите подробнее [тут](https://alexgyver.ru/ws2812_guide/). 
+Мы будем говорить об адресной светодиодной ленте. Если вас интересует тема таких лент, посмотрите подробнее [тут](https://alexgyver.ru/ws2812_guide/).
 
 ## Подключение
 
@@ -128,7 +128,7 @@ HSV (Hue - тон, Saturation - насыщенность (серее-цветн�
 
 <figure>
 
-[image:../../.gitbook/assets/image (35).png:::0,0,100,100:::center]
+![](<./image (35).png>)
 
 <figcaption>
 
@@ -144,7 +144,7 @@ HSV (Hue - тон, Saturation - насыщенность (серее-цветн�
 
 <figure>
 
-[image:../../.gitbook/assets/image (36).png:::0,0,100,100:::center]
+![](<./image (36).png>)
 
 <figcaption>
 
@@ -196,7 +196,7 @@ FastLED.show();
 
 <figure>
 
-[image:../../.gitbook/assets/image (37).png:::0,0,100,100:::center]
+![](<./image (37).png>)
 
 <figcaption>
 
@@ -210,7 +210,7 @@ FastLED.show();
 
 <figure>
 
-[image:../../.gitbook/assets/image (38).png:::0,0,100,100:::center]
+![](<./image (38).png>)
 
 <figcaption>
 
@@ -224,7 +224,7 @@ FastLED.show();
 
 <figure>
 
-[image:../../.gitbook/assets/image (39).png:::0,0,100,100:::center]
+![](<./image (39).png>)
 
 <figcaption>
 

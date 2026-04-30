@@ -2,13 +2,13 @@
 title: Сборка - макетная плата
 ---
 
-Электронная схема состоит из компонентов, которые нужно соединить между собой проводами или чем-нибудь другим, что проводит электрический ток. 
+Электронная схема состоит из компонентов, которые нужно соединить между собой проводами или чем-нибудь другим, что проводит электрический ток.
 
 Можно взять паяльник, компоненты, дощечку и кусок пластика, или вообще делать все в воздухе, и соединить вот так:
 
 <figure>
 
-[image:../../.gitbook/assets/image (116).png:::0,0,100,100:::center]
+![](<./image (116).png>)
 
 <figcaption>
 
@@ -22,7 +22,7 @@ title: Сборка - макетная плата
 
 <figure>
 
-[image:../../.gitbook/assets/image (118).png:::0,0,100,100:::center]
+![](<./image (118).png>)
 
 <figcaption>
 
@@ -36,7 +36,7 @@ title: Сборка - макетная плата
 
 <figure>
 
-[image:../../.gitbook/assets/image (120).png:::0,0,100,100:::center]
+![](<./image (120).png>)
 
 <figcaption>
 
@@ -58,7 +58,7 @@ title: Сборка - макетная плата
 
 <figure>
 
-[image:../../.gitbook/assets/image (121).png:::0,0,100,100:::center]
+![](<./image (121).png>)
 
 <figcaption>
 
@@ -72,7 +72,7 @@ title: Сборка - макетная плата
 
 <figure>
 
-[image:../../.gitbook/assets/image (123).png:::0,0,100,100:::center]
+![](<./image (123).png>)
 
 <figcaption>
 
@@ -84,7 +84,7 @@ title: Сборка - макетная плата
 
 <figure>
 
-[image:../../.gitbook/assets/image (124).png:::0,0,100,100:::center]
+![](<./image (124).png>)
 
 <figcaption>
 
@@ -98,7 +98,7 @@ title: Сборка - макетная плата
 
 <figure>
 
-[image:../../.gitbook/assets/image (125).png:::0,0,100,100:::center]
+![](<./image (125).png>)
 
 <figcaption>
 
