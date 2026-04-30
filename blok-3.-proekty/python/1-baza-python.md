@@ -1,5 +1,6 @@
 ---
 title: 1 База Python
+order: 0.5
 ---
 
 ### Немного про Python
