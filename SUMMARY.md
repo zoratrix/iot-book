@@ -1,4 +1,8 @@
 # Table of contents
+---
+title: Table of contents
+order: 1
+---
 
 * [Введение](README.md)
 * [Оборудование и технологии](oborudovanie-i-tekhnologii/README.md)
