@@ -10,7 +10,7 @@ title: 2. Метеостанция
 
 <figure>
 
-[image:../../.gitbook/assets/image (64).png:::0,0,100,100:::center]
+![](<./image (64).png>)
 
 <figcaption>
 
@@ -24,7 +24,7 @@ title: 2. Метеостанция
 
 <figure>
 
-[image:../../.gitbook/assets/image (65).png:::0,0,100,100:::center]
+![](<./image (65).png>)
 
 <figcaption>
 
@@ -38,7 +38,7 @@ title: 2. Метеостанция
 
 <figure>
 
-[image:../../.gitbook/assets/image (66).png:::0,0,100,100:::center]
+![](<./image (66).png>)
 
 <figcaption>
 
@@ -56,7 +56,7 @@ title: 2. Метеостанция
 
 <figure>
 
-[image:../../.gitbook/assets/image (71).png:::0,0,100,100:::center]
+![](<./image (71).png>)
 
 <figcaption>
 
@@ -70,7 +70,7 @@ title: 2. Метеостанция
 
 <figure>
 
-[image:../../.gitbook/assets/image (72).png:::0,0,100,100:::center]
+![](<./image (72).png>)
 
 <figcaption>
 
@@ -84,7 +84,7 @@ title: 2. Метеостанция
 
 <figure>
 
-[image:../../.gitbook/assets/image (74).png:::0,0,100,100:::center]
+![](<./image (74).png>)
 
 <figcaption>
 
@@ -100,7 +100,7 @@ title: 2. Метеостанция
 DHT dht_sensor(5, DHT22);
 ```
 
--  `dht_sensor` - это название датчика в вашем коде, его можно изменить; 
+-  `dht_sensor` - это название датчика в вашем коде, его можно изменить;
 -  `5` - это номер пина, в который подключен датчик;
 -  `DHT22` - это тип датчика (если он белого цвета, то это DHT22, если синего - DHT11);
 
@@ -111,7 +111,7 @@ float temp = 0.0;
 float hum = 0.0; 
 ```
 
-Теперь переходим к функции `setup()`. 
+Теперь переходим к функции `setup()`.
 
 Внутри цикла setup нам нужно запустить датчик командой `dht_sensor.begin()` и передачу данных на экран компьютера уже знакомой командой `Serial.begin(115200)`:
 

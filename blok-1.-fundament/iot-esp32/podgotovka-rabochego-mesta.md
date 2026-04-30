@@ -12,7 +12,7 @@ title: Подготовка рабочего места
 
 <figure>
 
-[image:../.gitbook/assets/image (80).png:::0,0,100,100:::center]
+![](<./image (80).png>)
 
 <figcaption>
 
@@ -26,7 +26,7 @@ title: Подготовка рабочего места
 
 <figure>
 
-[image:../.gitbook/assets/image (81).png:::0,0,100,100:::center]
+![](<./image (81).png>)
 
 <figcaption>
 
@@ -38,7 +38,7 @@ title: Подготовка рабочего места
 
 <figure>
 
-[image:../.gitbook/assets/image (82).png:::0,0,100,100:::center]
+![](<./image (82).png>)
 
 <figcaption>
 
@@ -56,7 +56,7 @@ title: Подготовка рабочего места
 
 <figure>
 
-[image:../.gitbook/assets/arduino_pubsub_download.webp:::0,0,100,100:::center]
+![](./arduino_pubsub_download.webp)
 
 <figcaption>
 
@@ -70,7 +70,7 @@ title: Подготовка рабочего места
 
 <figure>
 
-[image:../.gitbook/assets/image (84).png:::0,0,100,100:::center]
+![](<./image (84).png>)
 
 <figcaption>
 
